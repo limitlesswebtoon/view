@@ -1,0 +1,23 @@
+body {
+    margin: 0%;
+    background-image: url('img/bg.png');
+    background-attachment: fixed;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+
+
+@media (max-width: 900px) {
+    body {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+
+img {
+    margin-bottom: -10px;
+    width: 100%;
+}
