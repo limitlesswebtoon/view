@@ -1,0 +1,66 @@
+body {
+    margin: 0%;
+    background-image: url('img/bg.png');
+    background-attachment: fixed;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+
+
+@media (max-width: 900px) {
+    body {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+
+img {
+    margin-bottom: -10px;
+    width: 100%;
+}
+
+
+.language {
+    align-content: center;
+    height: 500px;
+    width: 100%;
+   background-color: #051b2c;
+}
+
+h1 {
+    color: white;
+    font-family: roboto;
+    font-weight: 300;   
+}
+
+button  {
+    cursor: pointer;
+    font-family: roboto;
+    font-size: 5vh;
+    font-weight: 300; 
+    background-color: rgba(255, 0, 0, 0);
+    margin: 10px;
+    padding: 25px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    color: white;
+}
+
+button:focus  {
+    transition: .2s;
+    background-color: white;
+    border-color: white;
+    color: #051b2c;
+}
+
+div#english {
+    display: block;
+}
+
+div#filipino {
+    display: none;
+}
