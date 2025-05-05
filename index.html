@@ -5,67 +5,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
     <center>
     <img src="img/Cover2.webp" alt="" >
+    <div class="language">
+        <h1> Select Language</h1>
+        <button onclick="fil()"> Filipino</button>
+        <button onclick="eng()"> English</button>
+    </div>
+
     <img src="img/discalimer.webp" alt="" >
-    <img src="img/Page 1-2.webp" alt="">
-    <img src="img/page 3.webp" alt="">
-    <img src="img/page 4.webp" alt="">
-    <img src="img/page 5.webp" alt="">
-    <img src="img/page 6.webp" alt="">
-    <img src="img/page 7.webp" alt="">
-    <img src="img/page 8.webp" alt="">
-    <img src="img/page 9.webp" alt="">
-    <img src="img/page 10.webp" alt="">
-    <img src="img/page 11.webp" alt="">
-    <img src="img/page 12.webp" alt="">
-    <img src="img/page 13.webp" alt="">
-    <img src="img/page 14.webp" alt="">
-    <img src="img/page 15.webp" alt="">
-    <img src="img/page 16.webp" alt="">
-    <img src="img/page 17.webp" alt="">
-    <img src="img/page 18.webp" alt="">
-    <img src="img/page 19.webp" alt="">
-    <img src="img/page 20.webp" alt="">
-    <img src="img/page 21.webp" alt="">
-    <img src="img/page 22.webp" alt="">
-    <img src="img/page 23.webp" alt="">
-    <img src="img/page 24.webp" alt="">
-    <img src="img/page 25.webp" alt="">
-    <img src="img/page 26.webp" alt="">
-    <img src="img/page 27.webp" alt="">
-    <img src="img/page 28.webp" alt="">
-    <img src="img/page 29.webp" alt="">
-    <img src="img/page 30.webp" alt="">
-    <img src="img/page 31.webp" alt="">
-    <img src="img/page 32.webp" alt="">
-    <img src="img/page 33.webp" alt="">
-    <img src="img/page 34.webp" alt="">
-    <img src="img/page 35.webp" alt="">
-    <img src="img/page 36.webp" alt="">
-    <img src="img/page 37.webp" alt="">
-    <img src="img/page 38.webp" alt="">
-    <img src="img/page 39.webp" alt="">
-    <img src="img/page 40.webp" alt="">
-    <img src="img/page 41.webp" alt="">
-    <img src="img/page 42.webp" alt="">
-    <img src="img/page 43.webp" alt="">
-    <img src="img/page 44.webp" alt="">
-    <img src="img/page 45.webp" alt="">
-    <img src="img/Page 46.webp" alt="">
-    <img src="img/page 47.webp" alt="">
-    <img src="img/page 48.webp" alt="">
-    <img src="img/page 49.webp" alt="">
-    <img src="img/page 50.webp" alt="">
-    <img src="img/page 51.webp" alt="">
-    <img src="img/page 52.webp" alt="">
-    <img src="img/page 53.webp" alt="">
-    <img src="img/page 54.webp" alt="">
+
+    <div id="english">
+    <img src="img/english/english (1).webp" alt="">
+    <img src="img/english/english (2).webp" alt="">
+    <img src="img/english/english (3).webp" alt="">
+    <img src="img/english/english (4).webp" alt="">
+    <img src="img/english/english (5).webp" alt="">
+    <img src="img/english/english (6).webp" alt="">
+    <img src="img/english/english (7).webp" alt="">
+    <img src="img/english/english (8).webp" alt="">
+    <img src="img/english/english (9).webp" alt="">
+    <img src="img/english/english (10).webp" alt="">
+    <img src="img/english/english (11).webp" alt="">
+    <img src="img/english/english (12).webp" alt="">
+    <img src="img/english/english (13).webp" alt="">
+    <img src="img/english/english (14).webp" alt="">
+    <img src="img/english/english (15).webp" alt="">
+    <img src="img/english/english (16).webp" alt="">
+    <img src="img/english/english (17).webp" alt="">
+    <img src="img/english/english (18).webp" alt="">
+    <img src="img/english/english (19).webp" alt="">
+    <img src="img/english/english (20).webp" alt="">
+    <img src="img/english/english (21).webp" alt="">
+    <img src="img/english/english (22).webp" alt="">
+    <img src="img/english/english (23).webp" alt="">
+    <img src="img/english/english (24).webp" alt="">
+    <img src="img/english/english (25).webp" alt="">
+    <img src="img/english/english (26).webp" alt="">
+    <img src="img/english/english (27).webp" alt="">
+    <img src="img/english/english (28).webp" alt="">
+    <img src="img/english/english (28).webp" alt="">
+    <img src="img/english/english (30).webp" alt="">
+    <img src="img/english/english (31).webp" alt="">
+    <img src="img/english/english (32).webp" alt="">
+    <img src="img/english/english (33).webp" alt="">
+    <img src="img/english/english (34).webp" alt="">
+    <img src="img/english/english (35).webp" alt="">
+    <img src="img/english/english (36).webp" alt="">
+    <img src="img/english/english (37).webp" alt="">
+    <img src="img/english/english (38).webp" alt="">
+    <img src="img/english/english (39).webp" alt="">
+    <img src="img/english/english (40).webp" alt="">
+    <img src="img/english/english (41).webp" alt="">
+    <img src="img/english/english (42).webp" alt="">
+    <img src="img/english/english (43).webp" alt="">
+    <img src="img/english/english (44).webp" alt="">
+    <img src="img/english/english (45).webp" alt="">
+    <img src="img/english/english (46).webp" alt="">
+    <img src="img/english/english (47).webp" alt="">
+    <img src="img/english/english (48).webp" alt="">
+    <img src="img/english/english (49).webp" alt="">
+    <img src="img/english/english (50).webp" alt="">
+    <img src="img/english/english (51).webp" alt="">
+    <img src="img/english/english (52).webp" alt="">
+    <img src="img/english/english (53).webp" alt="">
+    <img src="img/english/english (54).webp" alt="">
+    </div>
+
+    <div id="filipino">
+    <img src="img/tagalog/tagalog (1).webp" alt="">
+    <img src="img/tagalog/tagalog (2).webp" alt="">
+    <img src="img/tagalog/tagalog (3).webp" alt="">
+    <img src="img/tagalog/tagalog (4).webp" alt="">
+    <img src="img/tagalog/tagalog (5).webp" alt="">
+    <img src="img/tagalog/tagalog (6).webp" alt="">
+    <img src="img/tagalog/tagalog (7).webp" alt="">
+    <img src="img/tagalog/tagalog (8).webp" alt="">
+    <img src="img/tagalog/tagalog (9).webp" alt="">
+    <img src="img/tagalog/tagalog (10).webp" alt="">
+    <img src="img/tagalog/tagalog (11).webp" alt="">
+    <img src="img/tagalog/tagalog (12).webp" alt="">
+    <img src="img/tagalog/tagalog (13).webp" alt="">
+    <img src="img/tagalog/tagalog (14).webp" alt="">
+    <img src="img/tagalog/tagalog (15).webp" alt="">
+    <img src="img/tagalog/tagalog (16).webp" alt="">
+    <img src="img/tagalog/tagalog (17).webp" alt="">
+    <img src="img/tagalog/tagalog (18).webp" alt="">
+    <img src="img/tagalog/tagalog (19).webp" alt="">
+    <img src="img/tagalog/tagalog (20).webp" alt="">
+    <img src="img/tagalog/tagalog (21).webp" alt="">
+    <img src="img/tagalog/tagalog (22).webp" alt="">
+    <img src="img/tagalog/tagalog (23).webp" alt="">
+    <img src="img/tagalog/tagalog (24).webp" alt="">
+    <img src="img/tagalog/tagalog (25).webp" alt="">
+    <img src="img/tagalog/tagalog (26).webp" alt="">
+    <img src="img/tagalog/tagalog (27).webp" alt="">
+    <img src="img/tagalog/tagalog (28).webp" alt="">
+    <img src="img/tagalog/tagalog (29).webp" alt="">
+    <img src="img/tagalog/tagalog (30).webp" alt="">
+    <img src="img/tagalog/tagalog (31).webp" alt="">
+    <img src="img/tagalog/tagalog (32).webp" alt="">
+    <img src="img/tagalog/tagalog (33).webp" alt="">
+    <img src="img/tagalog/tagalog (34).webp" alt="">
+    <img src="img/tagalog/tagalog (35).webp" alt="">
+    <img src="img/tagalog/tagalog (36).webp" alt="">
+    <img src="img/tagalog/tagalog (37).webp" alt="">
+    <img src="img/tagalog/tagalog (38).webp" alt="">
+    <img src="img/tagalog/tagalog (39).webp" alt="">
+    <img src="img/tagalog/tagalog (40).webp" alt="">
+    <img src="img/tagalog/tagalog (41).webp" alt="">
+    <img src="img/tagalog/tagalog (42).webp" alt="">
+    <img src="img/tagalog/tagalog (43).webp" alt="">
+    <img src="img/tagalog/tagalog (44).webp" alt="">
+    <img src="img/tagalog/tagalog (45).webp" alt="">
+    <img src="img/tagalog/tagalog (46).webp" alt="">
+    <img src="img/tagalog/tagalog (47).webp" alt="">
+    <img src="img/tagalog/tagalog (48).webp" alt="">
+    <img src="img/tagalog/tagalog (49).webp" alt="">
+    <img src="img/tagalog/tagalog (50).webp" alt="">
+    <img src="img/tagalog/tagalog (51).webp" alt="">
+    <img src="img/tagalog/tagalog (52).webp" alt="">
+    <img src="img/tagalog/tagalog (53).webp" alt="">
+    <img src="img/tagalog/tagalog (54).webp" alt="">
+    </div>
     </center>
+
     
+    <script>
+        function eng() {
+			document.getElementById("english").style.display="block";
+            document.getElementById("filipino").style.display="none";
+		}
+
+        function fil() {
+			document.getElementById("english").style.display="none";
+            document.getElementById("filipino").style.display="block";
+		}
+    </script>
+
+
 </body>
 
 
